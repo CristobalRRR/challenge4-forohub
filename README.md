@@ -7,4 +7,4 @@
   <li>Historia</li>
   <li>Idiomas</li>
 </lu>
-<p>Los usuarios pueden usar el nombre de autor que deseen, a la vez de modificar sus topicos las veces que quieran e incluso eliminarlos. Estos topicos tambien pueden ser eliminados por usuarios con acceso privilegiado en caso de romper normas internas.</p>
+<p>Los usuarios pueden usar el nombre de autor que deseen, a la vez de modificar sus topicos las veces que quieran e incluso eliminarlos. Estos topicos tambien pueden ser eliminados por usuarios con acceso privilegiado en caso de romper normas internas. La seguridad es a traves de JWT</p>
