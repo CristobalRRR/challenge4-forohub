@@ -3,7 +3,7 @@ package com.aluracursos.challenge4_forohub.domain.topico;
 import com.aluracursos.challenge4_forohub.domain.curso.Curso;
 import com.aluracursos.challenge4_forohub.domain.usuario.Usuario;
 import com.aluracursos.challenge4_forohub.repository.TopicoRepository;
-import com.aluracursos.challenge4_forohub.repository.UsuarioRepository;
+import com.aluracursos.challenge4_forohub.domain.usuario.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
