@@ -33,7 +33,14 @@ public class Topico {
     @Enumerated(EnumType.STRING)
     private Curso curso;
 
-    public Topico(DatosCrearTopico datosCrearTopico) {
+    public Topico(DatosCrearTopico datosCrearTopico, Usuario usuarioId) {
+        this.titulo = datosCrearTopico.titulo();
+        this.mensaje = datosCrearTopico.mensaje();
+        this.fechaCreacion = LocalDateTime.now();
+        this.estado = true;
+        this.usuarioId = usuarioId;
+        this.autor = datosCrearTopico.autor();
+        this.curso = datosCrearTopico.curso();
     }
 
     public Long getId() {
@@ -66,5 +73,25 @@ public class Topico {
 
     public Curso getCurso() {
         return curso;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public void setMensaje(String mensaje) {
+        this.mensaje = mensaje;
+    }
+
+    public void setEstado(Boolean estado) {
+        this.estado = estado;
+    }
+
+    public void setAutor(String autor) {
+        this.autor = autor;
+    }
+
+    public void setCurso(Curso curso) {
+        this.curso = curso;
     }
 }

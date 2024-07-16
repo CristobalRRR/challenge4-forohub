@@ -1,8 +1,8 @@
 
 create table usuarios(
     id bigint not null auto_increment,
-    nombreUsuario varchar(100) not null,
-    claveLogin varchar(100) not null,
+    nombre_usuario varchar(100) not null,
+    clave_login varchar(100) not null,
 
     primary key(id)
 )

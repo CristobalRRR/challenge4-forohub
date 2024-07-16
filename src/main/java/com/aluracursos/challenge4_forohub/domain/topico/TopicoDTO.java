@@ -11,7 +11,7 @@ public record TopicoDTO(
         String mensaje,
         LocalDateTime fechaCreacion,
         Boolean estado,
-        Usuario usuarioId,
+        Long usuarioId,
         String autor,
         Curso curso
 ) {
